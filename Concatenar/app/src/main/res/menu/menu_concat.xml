@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.marty.concatenar.concat">
+    <item
+        android:id="@+id/CNA"
+        android:orderInCategory="100"
+        android:title="Concatenar N - A"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/CAN"
+        android:orderInCategory="100"
+        android:title="Concatenar A - N"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/borrar"
+        android:orderInCategory="100"
+        android:title="Limpiar"
+        app:showAsAction="never"
+        />
+</menu>
